@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View
+    controllerName="dux.view.App"
+    displayBlock="true"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <App id="idAppRoot">
+        <mvc:XMLView viewName="dux.view.First" id="idViewFirst" />
+        <mvc:XMLView viewName="dux.view.Second" id="idViewSecond" />
+    </App>
+
+</mvc:View>
