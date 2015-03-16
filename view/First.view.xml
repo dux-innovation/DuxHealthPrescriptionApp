@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View
+    controllerName="dux.view.First"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page title="{i18n>FirstPageTitle}">
+        <List
+            id="idListPrescriptions"
+            items="{/prescriptions}"
+            mode="SingleSelectMaster"
+            select="handleListSelect">
+            <StandardListItem
+                title="{patient/name}"
+                description="{patient/age}" />
+        </List>
+    </Page>
+
+</mvc:View>
+

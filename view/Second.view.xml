@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mvc:View
+    controllerName="dux.view.Second"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+
+    <Page
+        showNavButton="true"
+        navButtonPress="handleNavButtonPress"
+        title="{i18n>SecondPageTitle}">
+        <ObjectHeader
+            title="{patient/name}"
+            number="{periodicity}"
+            numberUnit="{unit}">
+            <attributes>
+                <ObjectAttribute text="{patient/gender}" /> 
+                <ObjectAttribute text="{patient/age}" /> 
+                <ObjectAttribute text="{date}" /> 
+                <ObjectAttribute text="{text}" /> 
+            </attributes>
+        </ObjectHeader>
+    </Page>
+
+</mvc:View>
