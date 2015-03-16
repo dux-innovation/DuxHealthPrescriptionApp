@@ -14,7 +14,7 @@ sap.ui.core.UIComponent.extend("dux.Component", {
 
         // set data model on root view
         oView.setModel(new sap.ui.model.json.JSONModel("model/model.json"));
-        xodata
+        
 
         // set i18n model
         var i18nModel = new sap.ui.model.resource.ResourceModel({
